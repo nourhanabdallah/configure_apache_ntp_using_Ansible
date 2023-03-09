@@ -1,0 +1,11 @@
+- name: Install chrony
+  yum:
+        name: chrony
+        state: present
+- name: Set time zone
+  timezone:
+      name: America/New_York
+- name: restart chrony
+  systemd:
+        name: chronyd
+        state: restarted

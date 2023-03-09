@@ -1,0 +1,5 @@
+[webservers]
+#client2  ansible_host=192.168.24.140  ansible_user=nour  ansible_ssh_private_key_file=/etc/ansible/key.pem
+
+client  ansible_host=192.168.24.136  ansible_user=nour  ansible_ssh_private_key_file=/etc/ansible/key.pem
+
