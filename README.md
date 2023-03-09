@@ -31,7 +31,7 @@
 * sudo yum install python3
 * sudo yum install epel-release
 * sudo yum install ansible
-* sudo yum install ansible-galaxy :Use ansible galaxy to download roles from GIT using URLs
+* sudo yum install ansible-galaxy : if you want to Use ansible galaxy to download roles from GIT using URLs
 * sudo yum install git
 * vim /etc/hosts : add record of client `192.168.24.136 client2.lab.local`
 * ssh-keygen
