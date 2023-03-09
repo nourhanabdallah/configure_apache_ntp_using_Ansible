@@ -33,7 +33,7 @@
 * sudo yum install ansible
 * sudo yum install ansible-galaxy : if you want to Use ansible galaxy to download roles from GIT using URLs
 * sudo yum install git
-* vim /etc/hosts : add record of client `192.168.24.136 client2.lab.local`
+* vim /etc/hosts : add record of client `192.168.24.136 nourhan.lab.local`
 * ssh-keygen
 * ssh-copy-id -i /home/nour/.ssh/id_rsa.pub nour@192.168.24.136
 * in  /etc/ansible/  `sudo vim key.pem`
