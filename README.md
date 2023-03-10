@@ -14,9 +14,12 @@
 * vim /etc/hosts
 
  add record of master 
-192.168.24.136 nourhan.lab.local
+ 
+ 
+ 
 
-192.168.24.137 ansiblemaster.lab.local
+
+`192.168.24.137 ansiblemaster.lab.local`
 
 
 * check that apache doesnt installed `rpm -qa httpd`
