@@ -10,7 +10,7 @@
 * configure ntp package 
 * use roles 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-1- ## client 
+## 1- client 
 * vim /etc/hosts
 
  add record of master 
@@ -30,7 +30,7 @@
 - Your identification has been saved in /home/nour/.ssh/id_rsa
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-2- ## Master 
+## 2- Master 
 * sudo yum install python3
 * sudo yum install epel-release
 * sudo yum install ansible
